@@ -1,0 +1,36 @@
+{
+  "name": "phpbergen/202501",
+  "description": "PHP Attributes talk and demonstration",
+  "homepage": "https://github.com/PHP-Bergen",
+  "authors": [
+    {
+      "name": "Stein Magne Bjørklund",
+      "email": "steinmb@smbjorklud.com"
+    }
+  ],
+  "type": "project",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.4"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.1.2",
+    "phpunit/phpunit": "^11.5.3"
+  },
+  "config": {
+    "platform": {
+      "php": "8.4"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "\\phpbergen\\Attributes\\": "/src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Phpbergen\\Tests\\": "tests"
+    }
+  }
+}
