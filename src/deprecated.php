@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * PHP 8.4 - #[\Deprecated] attribute was introduced.
+ *
+ * https://www.php.net/manual/en/class.deprecated.php
+ */
+
 #[\Deprecated]
 function test() {
 }
@@ -22,4 +28,3 @@ test2();
 test3();
 test4();
 call_user_func("test");
-
