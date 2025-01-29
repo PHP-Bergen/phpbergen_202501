@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0684dbe29266185bd2f24bd9cff7e7e",
+    "content-hash": "79367592ff96110ad4a634fb65c352ea",
     "packages": [
         {
             "name": "doctrine/collections",
@@ -3718,6 +3718,7 @@
     "stability-flags": {
         "doctrine/dbal": 20,
         "doctrine/orm": 20,
+        "symfony/console": 20,
         "symfony/http-foundation": 20,
         "symfony/routing": 20
     },
