@@ -1,0 +1,8 @@
+# Drupal routing system.
+beer.content:
+  path: '/beer'
+  defaults:
+    _controller: '\Drupal\example\Controller\BeerController::content'
+    _title: 'Hello Beer'
+  requirements:
+    _permission: 'access content'
