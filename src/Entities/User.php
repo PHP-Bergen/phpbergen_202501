@@ -2,6 +2,8 @@
 
 namespace phpbergen\Attributes\Entities;
 
+use phpbergen\Attributes\Attributes\Serializable;
+
 final class User
 {
 

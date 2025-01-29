@@ -3,6 +3,7 @@
 namespace phpbergen\Attributes\Attributes;
 
 use ReflectionClass;
+use ReflectionProperty;
 
 final class Serializer
 {

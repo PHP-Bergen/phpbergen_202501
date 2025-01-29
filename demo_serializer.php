@@ -5,7 +5,6 @@ use phpbergen\Attributes\Entities\User;
 
 require 'vendor/autoload.php';
 
-$user = new User('JD Lien','jd@example.com','pass123');
+$user = new User('PHP Bergen','php@bergen.no','123456');
 $json = Serializer::serialize($user);
 echo $json . PHP_EOL;
-
