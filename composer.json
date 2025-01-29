@@ -12,7 +12,9 @@
   "license": "MIT",
   "minimum-stability": "dev",
   "require": {
-    "php": ">=8.4"
+    "php": ">=8.4",
+    "symfony/routing": "7.3.x-dev",
+    "symfony/http-foundation": "7.3.x-dev"
   },
   "require-dev": {
     "phpstan/phpstan": "^2.1.2",
@@ -25,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "\\phpbergen\\Attributes\\": "/src"
+      "\\phpbergen\\Attributes\\": "src/"
     }
   },
   "autoload-dev": {
