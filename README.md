@@ -1,4 +1,5 @@
 # Get started with Attributes - PHP Bergen
+https://github.com/PHP-Bergen/phpbergen_202501/actions/workflows/php.yml/badge.svg
 
 The slides are located in `/docs`, and an [HTML version](docs/html/PHP%20attributes/index.html) in `/docs/html`.
 
