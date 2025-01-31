@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Use Reflection to detect deprecated functions and methods.
+ */
+
 #[\Deprecated]
 function wine() {};
 
@@ -20,3 +24,8 @@ var_dump($method->isDeprecated());
 
 $reflection = new ReflectionClassConstant(Beer::class, 'TYPE');
 var_dump($reflection->isDeprecated());
+
+/**
+ * Calling a deprecated function emmit PHP Deprecated: Function wine().
+ */
+wine();
