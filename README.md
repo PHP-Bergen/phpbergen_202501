@@ -4,7 +4,7 @@ The slides are located in `/docs`, and an [HTML version](docs/html/PHP%20attribu
 
 ## Examples
 
-Code examples on how to use PHP Attributes. Most of the code will run as expected though here is a few hits.
+This repo contain code examples on how to use PHP Attributes. Most of the code will run as expected from repository root and inside `/src`, though here is a few hits.
 
 The PHP Bergen command line application uses Symfony console component. Run it with `./phpbergen`. 
 
