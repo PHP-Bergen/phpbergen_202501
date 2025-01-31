@@ -13,11 +13,11 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=8.4",
-    "symfony/routing": "7.3.x-dev",
-    "symfony/http-foundation": "7.3.x-dev",
-    "doctrine/orm": "4.0.x-dev",
-    "doctrine/dbal": "4.3.x-dev",
-    "symfony/console": "7.3.x-dev"
+    "symfony/routing": "^7.3",
+    "symfony/http-foundation": "^7.3",
+    "doctrine/orm": "^4.0",
+    "doctrine/dbal": "^4.3",
+    "symfony/console": "^7.3"
   },
   "require-dev": {
     "phpstan/phpstan": "^2.1.2",

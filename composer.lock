@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79367592ff96110ad4a634fb65c352ea",
+    "content-hash": "894b8da9f6d524a0a89f966c179a382a",
     "packages": [
         {
             "name": "doctrine/collections",
@@ -99,12 +99,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "6a9c6db1be0eaf7ea20349d293d676ee6028e5bb"
+                "reference": "e37f3486cb7526577b89ede499abf8a8c9cf2b78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/6a9c6db1be0eaf7ea20349d293d676ee6028e5bb",
-                "reference": "6a9c6db1be0eaf7ea20349d293d676ee6028e5bb",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/e37f3486cb7526577b89ede499abf8a8c9cf2b78",
+                "reference": "e37f3486cb7526577b89ede499abf8a8c9cf2b78",
                 "shasum": ""
             },
             "require": {
@@ -197,7 +197,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-01-29T12:35:06+00:00"
+            "time": "2025-01-29T20:47:06+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -2205,12 +2205,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "26937f26051ed366976b7adc70a9477edb961d37"
+                "reference": "60f9b8bc8b422533d77262ffe00bbfb05699b9f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/26937f26051ed366976b7adc70a9477edb961d37",
-                "reference": "26937f26051ed366976b7adc70a9477edb961d37",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/60f9b8bc8b422533d77262ffe00bbfb05699b9f6",
+                "reference": "60f9b8bc8b422533d77262ffe00bbfb05699b9f6",
                 "shasum": ""
             },
             "require": {
@@ -2256,7 +2256,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-25T14:23:07+00:00"
+            "time": "2025-01-30T10:19:13+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -2587,12 +2587,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c60d4ba3b058638a67985b1a0795f69006c8f1c6"
+                "reference": "3c3ae14c90f244cdda95028c3e469028e8d1c02c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c60d4ba3b058638a67985b1a0795f69006c8f1c6",
-                "reference": "c60d4ba3b058638a67985b1a0795f69006c8f1c6",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3c3ae14c90f244cdda95028c3e469028e8d1c02c",
+                "reference": "3c3ae14c90f244cdda95028c3e469028e8d1c02c",
                 "shasum": ""
             },
             "require": {
@@ -2664,7 +2664,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.6"
             },
             "funding": [
                 {
@@ -2680,7 +2680,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-01-26T08:31:41+00:00"
+            "time": "2025-01-31T07:03:30+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -3715,13 +3715,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "doctrine/dbal": 20,
-        "doctrine/orm": 20,
-        "symfony/console": 20,
-        "symfony/http-foundation": 20,
-        "symfony/routing": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
